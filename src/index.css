@@ -1,13 +1,88 @@
+/* style for all the components */
 body {
+  top: 50px;
+  position: relative;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header {
+  color: rgb(247, 240, 240);
+  background-color: rgb(16, 37, 230);
+}
+.m-3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#main {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.w-40 {
+  width: 40vw;
+  height: 100vh;
+}
+.b-3 {
+  border: 1px solid rgba(73, 182, 233, 0.493);
+}
+.bl-3 {
+  border-left: 2px solid rgb(249, 250, 250);
+}
+.w-50 {
+  width: 50%;
+}
+
+.p-3 {
+  padding: 0.1rem;
+}
+.mt-5 {
+  margin-top: 50px;
+}
+.mt-3 {
+  margin-top: 100px;
+}
+#todo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mt-6 {
+  margin-top: 35px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h-5 {
+  height: 70px;
+}
+
+#form {
+  position: fixed;
+  top: 60;
+  left: 0;
+}
+#todo-container {
+  position: absolute;
+  right: 0;
 }
